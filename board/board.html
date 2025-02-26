@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, World! - 留言板</title>
+        <link rel="stylesheet" type="text/css" href="../index.css">
+        <link rel="shortcut icon" href="../image/icon.png">
+        <script>
+            function response() {
+                alert("提交成功！");
+                var x = document.getElementById("response");
+                x.innerHTML = "感谢您的宝贵意见！"
+                x.style.color = "#ff0000"
+            }
+        </script>
+    </head>
+    <body>
+        <div class="head">
+            <img src="../image/title.jpg" height="60">
+            <ul style="text-align: center;">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../language/lang.html">编程语言</a></li>
+                <li><a href="../time_line/time_line.html">时间线</a></li>
+                <li><a href="board.html" class="active">留言板</a></li>
+                <li id="about"><a href="../about.html">关于</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <hr>
+            <h1>留言板</h1>
+            <hr>
+            <input type="text" name="advice">
+            <button type="button" onclick="response()">提交</button>
+            <p id="response">
+                请在上方文本框中输入您对本站的建议
+            </p>
+        </div>
+    </body>
+</html>

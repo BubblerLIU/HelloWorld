@@ -1,0 +1,105 @@
+body {
+    background-color: #011F3B;
+}
+
+h1 {
+    margin: 1em;
+}
+
+h2 {
+    margin: 1em;
+}
+
+h3 {
+    margin: 2em;
+}
+
+.text {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 2em;
+}
+
+.list_text {
+    text-align: justify;
+    margin: 2em;
+}
+
+.lang {
+    border-style: inset;
+    text-align: justify;
+    margin: 2em;
+    background-color: rgb(177, 176, 176);
+}
+
+.content {
+    width: 75em;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+.active {
+    background-color: aqua;
+}
+
+.lang_img {
+    float: left;
+    width: 2.6em;
+    height: 2.6em;
+}
+
+.detail_img {
+    float: left;
+    width: 10em;
+    height: 10em;
+    margin: 2em;
+}
+
+.code_img {
+    width: 70em;
+    margin: 2em;
+}
+
+ol {
+    margin: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #035BA1;
+}
+
+#response {
+    height: 50em;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 2em;
+}
+
+#about {
+    float: right;
+}
+
+ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aqua;
+}
+
+input {
+    width: 60%;
+    margin: 2em;
+}

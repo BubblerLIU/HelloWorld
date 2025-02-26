@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, World! - 高级语言类型</title>
+        <link rel="stylesheet" type="text/css" href="../index.css">
+        <link rel="shortcut icon" href="../image/icon.png">
+    </head>
+    <body>
+        <div class="head">
+            <img src="../image/title.jpg" height="60">
+            <ul style="text-align: center;">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="lang.html" class="active">编程语言</a></li>
+                <li><a href="../time_line/time_line.html">时间线</a></li>
+                <li><a href="../board/board.html">留言板</a></li>
+                <li id="about"><a href="../about.html">关于</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <hr>
+            <h1>高级语言的分类</h1>
+            <hr>
+            <h2>1.解释型和编译型</h2>
+            <h3>解释型语言</h3>
+            <p class="text">
+                是在运行的时候将程序翻译成机器语言，速度较慢。
+                解释型语言的程序不需要在运行前编译，在运行程序的时候才翻译，
+                专门的解释器负责在每个语句执行的时候解释程序代码。
+                这样解释型语言每执行一次就要翻译一次，因此效率比较低。
+            </p>
+            <p class="text">
+                一些网页脚本、服务器脚本及辅助开发接口这样的
+                对速度要求不高、对不同系统平台间的兼容性有一定要求的程序则通常使用解释性语言。
+            </p>
+            <p class="text">
+                常见的解释型语言有：JavaScript、VBScript、Perl、Python、Ruby、Basic、MATLAB等
+            </p>
+            <h3>编译型语言</h3>
+            <p class="text">
+                运行编译型语言是相对于解释型语言存在的，编译型语言的首先将源代码编译生成机器语言，
+                再由机器运行机器码（二进制）。由于程序执行速度快，同等条件下对系统要求较低，
+                因此像开发操作系统、大型应用程序、数据库系统等时都采用编译型语言。
+            </p>
+            <p class="text">
+                编译型语言在执行之前需要一个专门的编译过程，把程序编译成为机器语言的文件，
+                运行时不需要重新翻译，直接使用编译的结果就行了。
+                程序执行效率高，依赖编译器，跨平台性差些。
+            </p>
+            <p class="text">
+                常见的编译型语言有：C、C++、Pascal/Object Pascal（Delphi）、Go等
+            </p>
+            <h3>特例</h3>
+            <p class="text">
+                Java语言较为特殊，是一种介于两者之间的语言。
+                可以说它是编译型的，因为所有的Java代码都需要经过javac编译为.class文件。
+                也可以说它是解释型的。因为Java代码编译后.class文件还是不能直接运行在操作系统上，
+                还需要经过jvm解释为二进制代码。
+                Java现在拥有了jit，会将运行频率很高的代码直接编译为机器指令执行以提高性能, 
+                所以当代码被jit编译为机器码的时候，要说它是编译执行的也可以。
+            </p>
+            <h2>2.面向过程和面向对象</h2>
+            <h3>面向过程结构化程序设计语言：</h3>
+            <p class="text">
+                “面向过程”(Procedure Oriented)是一种以过程为中心的编程思想。
+                这些都是以什么正在发生为主要目标进行编程，不同于面向对象的是谁在受影响。
+                与面向对象明显的不同就是封装、继承、类。简写为POP。
+            </p>
+            <p class="text">
+                常见的面向过程语言有：C、Fortran、 Pascal等
+            </p>
+            <h3>面向对象程序设计语言：</h3>
+            <p class="text">
+                面向对象是把构成问题事务分解成各个对象，
+                建立对象的目的不是为了完成一个步骤，而是为了描述某个事物在整个解决问题的步骤中的行为。
+            </p>
+            <p class="text">
+                常见的面向对象语言有：c++、c#、java、delphi、Python、Simula等
+            </p>
+            <h3>特例</h3>
+            <p class="text">
+                C++和Perl同时支持面向过程和面向对象编程。
+            </p>
+            <hr>
+        </div>
+    </body>
+</html>
